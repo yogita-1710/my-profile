@@ -9,76 +9,87 @@
   <title>My Profile</title>
   <!-- CDN Link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- <style>
-    header {
-      background-color: pink;
-    }
-
-    span {
-      color: brown;
-    }
-
-    #resume {
-      color: orange;
-      font-weight: bolder;
-    }
-
-    .heading {
-      color:blueviolet;
-      font-style: italic;
-      background-color:burlywood;
-    }
-  a {
-      text-decoration: none;
-      color: deeppink;
-      font-weight: bold;
-    }
-    #secondListitem{
-      color: orangered;
-      background-color: greenyellow;
-    }
-    .para2{
-      text-transform: uppercase;
-    }
-
-  </style> -->
+  <!-- Font FamilyM CDN Link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+  <!-- Google Font Family -->
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+  <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+  <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <!-- font-family: "Roboto", sans-serif;
+font-family: "Poppins", sans-ser -->
+ 
   <style>
+    *{
+      font-family: "Poppins",sans-serif;
+    }
     header {
       padding: 20px;
       background-color: rgb(216, 244, 245);
+      font-family: "Roboto", sans-serif;
     }
 
     #resume {
       color: orange;
       font-weight: bolder;
     }
-    a{
+
+    a {
       text-decoration: none;
+     
     }
 
     .heading {
       color: cadetblue;
       font-style: italic;
+      font-family: "Roboto", sans-serif;
     }
+
     .header-info {
       margin-right: 40px;
       margin-left: 10px;
     }
+
     #resume-text {
       margin-left: 10px;
     }
-    .navbar{
-    padding: 15px;
+
+    .navbar {
+      padding: 15px;
+      font-family: "Roboto", sans-serif;
     }
-    li{
+
+    li {
       padding: 21px;
     }
+
+    table,
+    tr,
     th,
     td {
-      padding: 15px;
+      border: 2px solid rgb(216, 186, 131);
+      border-collapse: collapse;
     }
+
+    td,
+    th {
+      padding: 10px;
+    }
+
     .links {
       padding: 15px;
+    }
+
+    .copyright {
+      font-family: "Protest Revolution", sans-serif;
+    }
+
+    #techtable {
+      width: 50%;
     }
   </style>
 </head>
@@ -106,13 +117,12 @@
   </nav>
   <!-- Home Section  -->
   <section id="home">
-    <h2 class="heading">Career Objectives</h2>
+    <h2 class="heading ">Career Objectives</h2>
     <p class="para2">To work in organization where I can learn and grow my skills and help organizational growth</p>
     <h2 class="heading">Professional Summary </h2>
     <ul>
-      <li style="color:cadetblue">Having 1year of experience in developing Single page Web Application using
-        <span>Angular 8</span>,HTML5,CSS3,Bootstrap
-        5,JavaScript,TypeScript
+      <li>Having 1year of experience in developing Single page Web Application using
+        <span>Angular 8</span>,HTML5,CSS3,Bootstrap 5,JavaScript,TypeScript
       </li>
       <li id="secondListitem">Experience working with version control system-GIT and GitHub</li>
       <li>Experience working with JIRA for user stories and bus tracking</li>
@@ -127,7 +137,7 @@
   <hr>
   <section id="techStack">
     <h2 class="heading">My Technology Stack</h2>
-    <table border="1px solid black">
+    <table border="1px solid black" id="techtable">
       <thead>
         <th>Sr.No.</th>
         <th>Technology Stack</th>
@@ -229,7 +239,7 @@
   <hr>
   </section>
   <!-- Footer Section -->
-  <footer id="footer">
+  <footer id="footer" class="protest-revolution-regular"><span><b>Follow Us On ::</b></span>
     <a href="https://www.facebook.com/" target="_blank" class="links">
       <i class="fa fa-facebook-official" aria-hidden="true"></i>
     </a>
@@ -239,7 +249,7 @@
     <a href="https://www.instagram.com/" target="_blank" class="links">
       <i class="fa fa-instagram" aria-hidden="true"></i>
     </a><br>
-    &#169; 2024 Yogita N.Pore All rights Reserved.
+    <span class="copyright"> &#169; 2024 Yogita N.Pore All rights Reserved.</span>
   </footer>
 </body>
 
