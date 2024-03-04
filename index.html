@@ -9,115 +9,9 @@
   <title>My Profile</title>
   <!-- CDN Link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- Font FamilyM CDN Link -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
-  <!-- Google Font Family -->
-  <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
-  <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet">
-  <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
-  <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet">
-  <!-- font-family: "Roboto", sans-serif;
-font-family: "Poppins", sans-ser -->
 
-  <style>
-    * {
-      font-family: "Poppins", sans-serif;
-    }
-
-    header {
-      padding: 20px;
-      background-color: rgb(216, 244, 245);
-      font-family: "Roboto", sans-serif;
-    }
-
-    #resume {
-      color: orange;
-      font-weight: bolder;
-    }
-
-    a {
-      text-decoration: none;
-
-    }
-
-    .heading {
-      color: cadetblue;
-      font-style: italic;
-      font-family: "Roboto", sans-serif;
-    }
-
-    .header-info {
-      margin-right: 40px;
-      margin-left: 10px;
-    }
-
-    #resume-text {
-      margin-left: 10px;
-    }
-
-    .navbar {
-      padding: 15px;
-      font-family: "Roboto", sans-serif;
-    }
-
-    /* li {
-      padding: 21px;
-    } */
-
-    table,
-    tr,
-    th,
-    td {
-      border: 2px solid rgb(216, 186, 131);
-      border-collapse: collapse;
-    }
-
-    td,
-    th {
-      padding: 10px;
-    }
-
-    .links {
-      padding: 15px;
-    }
-
-    .copyright {
-      font-family: "Protest Revolution", sans-serif;
-    }
-
-    #techtable {
-      width: 50%;
-    }
-    /* https://emojipedia.org/writing-hand */
-    /* #listSummary li {
-      list-style-type: circle;
-    } */
-    #listSummary li{
-        list-style-type: none;
-      }
-      #listSummary li::marker{
-        content: "✍️";
-      }
-    .roles {
-      list-style-type: upper-roman;
-    }
-
-    .roles li {
-      padding-top: 8px;
-    }
-
-    #projectDesc::selection {
-      background-color: rgb(241, 193, 104);
-    }
-  </style>
+  <!-- External CSS  -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -132,17 +26,19 @@ font-family: "Poppins", sans-ser -->
     <a href="assets/resume.pdf" download id="resume"> <i class="fa fa-download fa-lg " aria-hidden="true"></i> <span
         id="resume-text">RESUME</span> </a>
   </header>
-  <!-- Navigation Section -->
-  <nav>
-    <a class="navbar" href="#home">HOME</a>
-    <a class="navbar" href="#techStack">TECH STACK</a>
-    <a class="navbar" href="#projects">PROJECTS</a>
-    <a class="navbar" href="#education">EDUCATION</a>
-    <a class="navbar" href="personalDetails.html" target="_blank">MY PERSONAL DETAILS</a>
-    <a class="navbar" href="others.html" target="_blank">OTHERS</a>
+  <nav id="navSection">
+    <ul>
+      <li><a href="#home">HOME</a> </li>
+      <li><a href="#techStack">TECH STACK</a> </li>
+      <li><a href="#project">PROJECTS</a></li>
+      <li><a href="#education">EDUCATION</a></li>
+      <li><a href="personalDetail.html" target="_blank">PERSONAL DETAILS</a></li>
+      <li><a href="others.html" target="_blank">OTHERS</a></li>
+    </ul>
   </nav>
   <!-- Home Section  -->
-  <section id="home">
+  <section id="container">
+    <section id="home">
     <h2 class="heading ">Career Objectives</h2>
     <p class="para2">To work in organization where I can learn and grow my skills and help organizational growth</p>
     <h2 class="heading">Professional Summary </h2>
@@ -277,6 +173,7 @@ font-family: "Poppins", sans-ser -->
     </a><br>
     <span class="copyright"> &#169; 2024 Yogita N.Pore All rights Reserved.</span>
   </footer>
+</section>
 </body>
 
 </html>
