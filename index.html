@@ -16,6 +16,7 @@
 
 <body>
   <!-- Header Section -->
+  <section id="head">
   <header>
     <i class="fa fa-user fa-lg" aria-hidden="true"></i>
     <span class="header-info">Yogita N.Pore </span>
@@ -26,7 +27,7 @@
     <a href="assets/resume.pdf" download id="resume"> <i class="fa fa-download fa-lg " aria-hidden="true"></i> <span
         id="resume-text">RESUME</span> </a>
   </header>
-  <nav id="navSection">
+  <nav id="navSection" class="navbar">
     <ul>
       <li><a href="#home">HOME</a> </li>
       <li><a href="#techStack">TECH STACK</a> </li>
@@ -36,132 +37,134 @@
       <li><a href="others.html" target="_blank">OTHERS</a></li>
     </ul>
   </nav>
+</section>
   <!-- Home Section  -->
   <section id="container">
     <section id="home">
-    <h2 class="heading ">Career Objectives</h2>
-    <p class="para2">To work in organization where I can learn and grow my skills and help organizational growth</p>
-    <h2 class="heading">Professional Summary </h2>
-    <ul>
-      <li>Having 1year of experience in developing Single page Web Application using
-        <span>Angular 8</span>,HTML5,CSS3,Bootstrap 5,JavaScript,TypeScript
-      </li>
-      <li>Experience working with version control system-GIT and GitHub</li>
-      <li>Experience working with JIRA for user stories and bus tracking</li>
-      <li>Strong Debugging & Troubleshooting code experience using Chrome Developer Tool</li>
-      <li>Working exposure on IDs like VS Code and Notepad++</li>
-      <li>Good Working Experience under Agile Methodology Environment</li>
-      <li>Experience using Chrome Developer Tool for debugging and Troubleshooting the code</li>
-      <li>Knowledge of NodeJS</li>
-      <li>Ability to work with people at all level's in the program</li>
-    </ul>
-  </section>
-  <hr>
-  <section id="techStack">
-    <h2 class="heading">My Technology Stack</h2>
-    <table border="1px solid black" id="techtable">
-      <thead>
-        <th>Sr.No.</th>
-        <th>Technology Stack</th>
-        <th>Rating</th>
-      </thead>
-      <tbody>
-        <tr>
-          <td>1</td>
-          <td>HTML</td>
-          <td>4</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>CSS</td>
-          <td>4</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>JavaScript</td>
-          <td>4</td>
-        </tr>
-        <tr>
-          <td>4</td>
-          <td>Angular</td>
-          <td>3</td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
-  <hr>
-  <!-- Project Section -->
-  <section id="projects">
-    <h2 class="heading">Project Details</h2>
-    <p><b>Name: </b><strong><u>Student Management</u></strong></p>
-    <p><b><u>Environment:</u></b> <b></b>Angular, React, Java, JavaScript, HTM1, CSS, Bootstrap, GitHub, Agile and
-      JIRA<br><br><b>TeamSize:</b> 06
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Duration:</b> <i>2021-1<sup>st</sup> -July till <u>present</u></i>
-    </p>
-    <p><b>Project Description : </b>This project is mainly used for student
-      management in colleges, where it helps to manage student record like <br> student registration, student update,
-      and
-      to see
-      all the list of academic activities like score card and attendance</p>
+      <h2 class="heading ">Career Objectives</h2>
+      <p class="para2">To work in organization where I can learn and grow my skills and help organizational growth</p>
+      <h2 class="heading">Professional Summary </h2>
+      <ul id="listSummary">
+        <li>Having 1year of experience in developing Single page Web Application using
+          <span>Angular 8</span>,HTML5,CSS3,Bootstrap 5,JavaScript,TypeScript
+        </li>
+        <li>Experience working with version control system-GIT and GitHub</li>
+        <li>Experience working with JIRA for user stories and bus tracking</li>
+        <li>Strong Debugging & Troubleshooting code experience using Chrome Developer Tool</li>
+        <li>Working exposure on IDs like VS Code and Notepad++</li>
+        <li>Good Working Experience under Agile Methodology Environment</li>
+        <li>Experience using Chrome Developer Tool for debugging and Troubleshooting the code</li>
+        <li>Knowledge of NodeJS</li>
+        <li>Ability to work with people at all level's in the program</li>
+      </ul>
+    </section>
     <hr>
-    <h2 class="heading">Roles and Responsibilities</h2>
-    <p>
-    <ol class="roles">
-      <li>Designed and Implemented the user interface using HTML5 and CSS3 </li>
-      <li>Work closely with backend developers for code
-        integration</li>
-      <li>Identifying and troubleshooting issues in front end codebase </li>
-      <li> Worked in GIT as a version control</li>
-      <li>Used
-        JIRA for bug tracking</li>
-      <li>Implemented project using Agile SCRUM methodology, involved in daily stand up calls, sprint
-        retrospective meetings</li>
-      <li>involved in fixing technical issues in production environment</li>
-    </ol>
-    </p>
-    </h2>
+    <section id="techStack">
+      <h2 class="heading">My Technology Stack</h2>
+      <table border="1px solid black" id="techtable">
+        <thead>
+          <th>Sr.No.</th>
+          <th>Technology Stack</th>
+          <th>Rating</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>HTML</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>CSS</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>JavaScript</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Angular</td>
+            <td>3</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <hr>
+    <!-- Project Section -->
+    <section id="projects">
+      <h2 class="heading">Project Details</h2>
+      <p><b>Name: </b><strong><u>Student Management</u></strong></p>
+      <p><b><u>Environment:</u></b> <b></b>Angular, React, Java, JavaScript, HTM1, CSS, Bootstrap, GitHub, Agile and
+        JIRA<br><br><b>TeamSize:</b> 06
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Duration:</b> <i>2021-1<sup>st</sup> -July till <u>present</u></i>
+      </p>
+      <p><b>Project Description : </b>This project is mainly used for student
+        management in colleges, where it helps to manage student record like <br> student registration, student update,
+        and
+        to see
+        all the list of academic activities like score card and attendance</p>
+      <hr>
+      <h2 class="heading">Roles and Responsibilities</h2>
+      <p>
+      <ol class="roles">
+        <li>Designed and Implemented the user interface using HTML5 and CSS3 </li>
+        <li>Work closely with backend developers for code
+          integration</li>
+        <li>Identifying and troubleshooting issues in front end codebase </li>
+        <li> Worked in GIT as a version control</li>
+        <li>Used JIRA for bug tracking</li>
+        <li>Implemented project using Agile SCRUM methodology, involved in daily stand up calls, sprint
+          retrospective meetings</li>
+        <li>involved in fixing technical issues in production environment</li>
+      </ol>
+      </p>
+      </h2>
+    </section>
+    <hr>
+    <!-- Education Section -->
+    <section id="education">
+      <h2 class="heading">Education Details</h2>
+      <table border="2px solid black">
+        <thead>
+          <th>Qualification</th>
+          <th>School/College</th>
+          <th>Board/University</th>
+          <th>Year</th>
+          <th>Percentage</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>BE</td>
+            <td>CSMIT,Shendung,Panvel</td>
+            <td>Mumbai</td>
+            <td>2019</td>
+            <td>61.27%</td>
+          </tr>
+          <tr>
+            <td>Diploma</td>
+            <td>VJTI,Matunga,Mumbai</td>
+            <td>Autonomous</td>
+            <td>2016</td>
+            <td>72.29%</td>
+          </tr>
+          <tr>
+            <td>SSC</td>
+            <td>DVS High School KoparKhairane,Navi Mumbai</td>
+            <td>State Board</td>
+            <td>2013</td>
+            <td>90.73%</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <hr>
   </section>
-  <hr>
-  <!-- Education Section -->
-  <section id="education">
-    <h2 class="heading">Education Details</h2>
-    <table border="2px solid black">
-      <thead>
-        <th>Qualification</th>
-        <th>School/College</th>
-        <th>Board/University</th>
-        <th>Year</th>
-        <th>Percentage</th>
-      </thead>
-      <tbody>
-        <tr>
-          <td>BE</td>
-          <td>CSMIT,Shendung,Panvel</td>
-          <td>Mumbai</td>
-          <td>2019</td>
-          <td>61.27%</td>
-        </tr>
-        <tr>
-          <td>Diploma</td>
-          <td>VJTI,Matunga,Mumbai</td>
-          <td>Autonomous</td>
-          <td>2016</td>
-          <td>72.29%</td>
-        </tr>
-        <tr>
-          <td>SSC</td>
-          <td>DVS High School KoparKhairane,Navi Mumbai</td>
-          <td>State Board</td>
-          <td>2013</td>
-          <td>90.73%</td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
-  <hr>
-  </section>
+
   <!-- Footer Section -->
-  <footer id="footer" class="protest-revolution-regular"><span><b>Follow Us On ::</b></span>
+  <footer id="footer" class="protest-revolution-regular">
+    <span><b>Follow Us On ::</b></span>
     <a href="https://www.facebook.com/" target="_blank" class="links">
       <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
     </a>
@@ -172,8 +175,12 @@
       <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
     </a><br>
     <span class="copyright"> &#169; 2024 Yogita N.Pore All rights Reserved.</span>
+    <!-- Chat with Us -->
+    <div class="chatWithUs">
+      <img src="/assets/wa-icon-original.png" alt="WhatsAppIcon" srcset="">
+    </div>
   </footer>
-</section>
+  </section>
 </body>
 
 </html>
