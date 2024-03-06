@@ -121,9 +121,14 @@ th {
 
 .chatWithUs {
     position: fixed;
-    right: 4px;
-    bottom: 2px;
+    right: 10px;
+    bottom: 12px;
 }
+/* #insta{
+    position: fixed;
+    right: 4px;
+    bottom: 100px;
+} */
 
 #footer {
     width: 800px;
