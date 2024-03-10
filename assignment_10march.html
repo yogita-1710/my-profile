@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Page</title>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+         /* *{
+            box-sizing: border-box;
+        } */
+        #container{
+            width:400px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+            margin: 20px auto;
+            border-radius: 10px;
+            padding-left: 15px;
+            font-family: "Roboto", sans-serif;
+        }
+       h1{
+        display: inline-block;
+        margin: 0.5rem;
+       }
+        textarea{
+           width: 95%;
+           resize: none;
+           color: white;
+           border-color: rgb(195, 194, 194);
+           background-color: rgb(160, 160, 239);
+           font-family: "Roboto", sans-serif;
+        }
+        #input1,#input2{
+            display: block;
+            margin: 10px;
+            border-radius: 5px;
+            width: 90%;
+            padding: 3px;
+            background-color: rgb(221, 221, 236);
+            border-color: aliceblue;
+        }
+        span{
+            color: red;
+        }
+       #btn{
+            position: relative;
+            left: 250px;
+            margin: 10px;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Subscriber</h1>
+        <hr>
+        <textarea name="" id="" cols="15" rows="10">
+            Were sorry to see you go, but hey, no hard feelings, hopefully we will see you back one day. Please fill in your email address in order to unsubscribe from the list. You will receive an email to confirm your unsubscription, just to make sure this is not an accident or somebody else tries to unsubscribe you. 
+        </textarea>
+        <label for="email">Email <span>*</span></label>
+        <input type="text" name="email" id="input1">
+        <label for="unsubscribe"> Unsubscribe Reason</label>
+        <input type="text" name="" id="input2" placeholder="Unsubscribe Reason">
+        <input type="button" value="Unsubscribe" id="btn">
+    </div>
+</body>
+</html>
